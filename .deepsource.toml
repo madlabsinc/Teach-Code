@@ -1,0 +1,9 @@
+version = 1
+
+test_patterns = ["__e2e__/**/*.test.js"]
+
+exclude_patterns = ["src/workspace/**/*.js"]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
